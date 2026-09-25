@@ -1,0 +1,30 @@
+# ===== 编译产物（绝对不入库）=====
+.vs/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.ipch
+*.o
+*.out
+*.dSYM/
+
+# ===== IDE / 编辑器杂物 =====
+*.user
+*.suo
+*.db
+*.sqlite
+.vscode/
+.idea/
+
+# ===== 操作系统杂物 =====
+.DS_Store
+Thumbs.db
+
+# ===== 临时文件 =====
+*.tmp
+*.log
+a.out
