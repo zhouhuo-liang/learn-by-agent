@@ -12,6 +12,13 @@
 *.out
 *.dSYM/
 
+# macOS / Linux 下由 build.sh 生成的课程可执行文件（无扩展名）
+/code/L[0-9][0-9]_*
+!/code/L[0-9][0-9]_*.cpp
+!/code/L[0-9][0-9]_*.h
+!/code/L[0-9][0-9]_*.hpp
+!/code/L[0-9][0-9]_*.txt
+
 # ===== IDE / 编辑器杂物 =====
 *.user
 *.suo
